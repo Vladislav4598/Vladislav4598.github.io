@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway')';
+
+body {
+	background-color: #f2f2f2;
+	font-family: Lato;
+	font-weight: 300;
+	font-size: 16px;
+	color: #555;
+
+-webkit-font-smoothing: antialiased;
+-webkit-overflow-scrolling: touch;
+
+margin-top: 70px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Raleway;
+	font-weight: 300;
+	color: #333;
+}
+
+P {
+	line-height: 28px;
+	margin-bottom: 25px;
+}
+
+.centered {
+	text-align: center;
+}
+
+a {
+	color: #f85c37;
+}
+
+a:hover, a:focus {
+	color: #7b7b7b;
+	text-decoration: none;
+	outline: 0;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+.navbar {
+	font-weight: 800;
+	font-size: 14px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.navbar-inverse {
+	background: #9932CC;
+	border-color: #D2691E;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	background-color: #000000;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #FFFF00;
+	font-weight: bolder;
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+
+#headerwrap {
+	background: url(../img/up.jpg) no-repeat;
+	margin-top: -10px;
+	padding-top: 20px;
+	text-align: center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 1000px;
+	min-width:1050px;
+	width: 100%;
+
+	background-size: 100%;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+}
+
+#headerwrap h1 {
+	margin-top: 100px;
+	color: white;
+	font-size: 70px;
+	font-weight: 300;
+	letter-spacing: 3px;
+}
+
+#headerwrap h2 {
+	color: white;
+	font-size: 40px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.w {
+	padding-top: 35px;
+}
+
+.w h4 {
+	font-size:25px;
+}
+
+#dg {
+	background: #00FFFF;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+
+#dg h4 {
+	font-size: 40px;
+}
+
+.wb {
+	padding-top: 35px;
+	margin-bottom: 0;
+}
+.wb h4 {
+	font-size: 35px;
+}
+
+#lg {
+	background: #C0C0C0;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+
+#lg h4 {
+	font-size: 45px;
+}
+
+#r {
+	background: #7B68EE;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#r h4 {
+	color: white;
+	font-size: 45px;
+}
+
+#r p {
+	color: white;
+}
+
+#f {
+	background: #000000;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+#f i {
+	color: #FF00FF;
+	font-size: 30px;
+	padding: 20px;
+}
+
+#f i:hover {
+	color: #FF00FF;
+}
